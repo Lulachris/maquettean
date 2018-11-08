@@ -1,6 +1,8 @@
 
 /* HEADER FOOTER */
-
+.Homer{
+  width: 10px;
+}
 :root {
     --jumbotron-padding-y: 3rem;
   }
