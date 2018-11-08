@@ -5,9 +5,7 @@
     --jumbotron-padding-y: 3rem;
   }
   
-  body{
-    background-color:#333333;
-  }
+
   .jumbotron {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);
@@ -20,7 +18,7 @@
       padding-bottom: calc(var(--jumbotron-padding-y) * 2);
     }
   }
-  
+  ```
   .jumbotron p:last-child {
     margin-bottom: 0;
   }
@@ -70,8 +68,9 @@
   /* Thin out the marketing headings */
   .featurette-heading {
     font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
+    margin: auto;
+  text-align: center;
+    letter-spacing: -.10rem;
   }
   
   
@@ -96,3 +95,14 @@
       margin-top: 7rem;
     }
   }
+  ```
+@media screen and (max-width:1594px) {
+    .featurette-headingt {
+        font-size: 130px;
+        font-weight: 700;
+        width: 87%;
+        text-align: center;
+        padding-bottom: 25px;
+        padding-right: 150px;
+    }
+}
