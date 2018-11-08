@@ -5,6 +5,9 @@
     --jumbotron-padding-y: 3rem;
   }
   
+  body{
+    background-color:#333333;
+  }
   .jumbotron {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);
