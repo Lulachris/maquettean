@@ -1,0 +1,233 @@
+body{
+    background-color: rgb(51, 51, 51);
+}
+
+nav{
+    background-color: rgb(200, 69, 89);
+    height : 234px;
+}
+
+#couleurtext{
+    color: rgb(51, 51, 51);
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgb(200, 69, 89);
+}
+
+.navbar-toggler-icon{
+    color: rgb(51, 51, 51);
+    background-image: url(burger.png);
+}
+
+.navbar-brand{
+    font-size: 140px;
+    font-weight: 700;
+    width: 89%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.container {
+    max-width: 2000px;
+    padding-top : 35px;
+}
+
+.rouge{
+    color: rgb(200, 69, 89);
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.gris{
+    color: rgb(156,156,156);
+    font-size: 34px; 
+}
+
+.col-lg-3{
+    padding-top: 70px;
+}
+
+    nav{
+        background-color: rgb(200, 69, 89);
+        height : 234px;
+    }
+    
+    #couleur{
+        color: rgb(51, 51, 51);
+    }
+    
+    .navbar-dark .navbar-toggler {
+        border-color: rgb(200, 69, 89);
+    }
+    
+    .navbar-toggler-icon{
+        color: rgb(51, 51, 51);
+        background-image: url(burger.png);
+    }
+    
+    .navbar-brand{
+        font-size: 140px;
+        font-weight: 700;
+        width: 89%;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    
+    .container {
+        max-width: 2000px;
+        padding-top : 35px;
+    }
+    
+    .rouge{
+        color: rgb(200, 69, 89);
+        font-size: 55px;
+        font-weight: 700;
+    }
+    
+    .gris{
+        color: rgb(156,156,156);
+        font-size: 34px; 
+    }
+    
+    .col-3{
+        padding-top: 70px;
+    }
+
+
+@media screen and (max-width:1594px) {
+    #couleurtext {
+        font-size: 120px;
+        font-weight: 700;
+        width: 87%;
+        text-align: center;
+        padding-bottom: 25px;
+        padding-right: 150px;
+    }
+
+    .rouge{
+        color: rgb(200, 69, 89);
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .col-3{
+        padding-top: 90px;
+    }
+    .gris{
+        color: rgb(156,156,156);
+        font-size: 25px; 
+    }
+}
+
+@media screen and (max-width:1580px) {
+
+    #couleurtext {
+        font-size: 120px;
+        font-weight: 700;
+        width: 50%;
+        text-align: center;
+        padding-bottom: 25px;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .rouge{
+        color: rgb(200, 69, 89);
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .gris{
+        color: rgb(156,156,156);
+        font-size: 25px; 
+    }
+}
+
+@media screen and (max-width:1326px) {
+
+    #couleurtext {
+        font-size: 110px;
+        font-weight: 700;
+        width: 50%;
+        text-align: center;
+        padding-bottom: 25px;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .rouge{
+        color: rgb(200, 69, 89);
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .gris{
+        color: rgb(156,156,156);
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width:1084px) {
+
+    #couleurtext {
+        font-size: 110px;
+        font-weight: 700;
+        width: 50%;
+        text-align: center;
+        padding-bottom: 25px;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .rouge{
+        color: rgb(200, 69, 89);
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .gris{
+        color: rgb(156,156,156);
+        font-size: 15px; 
+    }
+}
+
+@media screen and (max-width:946px) {
+
+    #couleurtext {
+        font-size: 70px;
+        font-weight: 700;
+        width: 50%;
+        text-align: center;
+        padding-bottom: 25px;
+        padding-right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .rouge{
+        color: rgb(200, 69, 89);
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .gris{
+        color: rgb(156,156,156);
+        font-size: 15px; 
+    }
+}
+    /* @include media-breakpoint-up(sm) {
+        .gris{
+            font-size: 10px; 
+        }
+      }
+      
+      @include media-breakpoint-up(md) {
+        .gris{
+            font-size: 20px;
+            display : none;
+        }
+      } */
